@@ -276,6 +276,21 @@ header .row {
     transition: border-color 300ms;
 }
 
+.header__email--input::placeholder {
+  font-weight: 500;
+  color: rgb(158, 170, 189);
+}
+
+.header__email--input:hover {
+  border-color: rgba(160, 174, 192);
+}
+
+.header__email--input:focus,
+.header__email--input:active {
+  outline: none;
+  border-color: rgba(100, 21, 255);
+}
+
 .header__email--btn {
     z-index: 2;
     margin: 8px;
